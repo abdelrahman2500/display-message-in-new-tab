@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Child</title>
+    </head>
+    <body id="body">
+
+
+
+        <script>
+            var msg = "id asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid asofoisjfnijvenruigndfingjgnbfdispgifdjg dfngiotngs dfngirenv jfdnldssadnoid "
+                var i = 0;
+
+                function showMsg(){
+                    document.write(msg.charAt(i));
+                    i++;
+                    if(i == msg.length-1){
+                        clearInterval(t)
+                    }
+                }
+
+                t= setInterval("showMsg()", 20);
+        </script>
+    </body>
+</html>
